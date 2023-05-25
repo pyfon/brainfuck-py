@@ -4,7 +4,7 @@ import argparse
 import sys
 
 class Tape:
-    """ An infinate 1D array for memory & program store """
+    """ An infinite 1D array for memory & program store """
     def __init__(self, initial_tape_len=4096):
         self._storage = bytearray(initial_tape_len)
         self._ptr = 0
